@@ -33,23 +33,6 @@
 - **Vision**: Qwen3-VL-8B-Instruct (Local)
 - **Vector DB**: FAISS
 
-## 📂 目录结构
-
-```text
-CuisineRAG/
-├── data/                   # 存放食谱数据 (txt/md)
-├── models/                 # 存放本地大模型文件 (需自行下载)
-├── vector_index/           # FAISS 向量索引 (自动生成)
-├── generation_integration.py # LLM 生成与路由模块
-├── retrieval_optimization.py # 混合检索与重排序模块
-├── local_vision_module.py    # 本地视觉推理模块
-├── index_construction.py     # 索引构建模块
-├── config.py                 # 系统配置文件
-├── main.py                   # 程序主入口
-├── requirements.txt          # 依赖列表
-└── .env                      # 环境变量配置 (不要上传)
-```
-
 ## 🚀 快速开始
 
 ### 1. 克隆项目
