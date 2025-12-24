@@ -1,0 +1,13 @@
+langchain
+langchain-community
+langchain-huggingface
+langchain-core
+faiss-cpu
+torch
+transformers
+sentence-transformers
+qwen_vl_utils
+python-dotenv
+moonshot-ai
+pillow
+accelerate
